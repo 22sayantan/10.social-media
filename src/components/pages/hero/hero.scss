@@ -1,0 +1,58 @@
+.postCard{
+    height: 14rem;
+    width: 30rem;
+
+    border: 1px solid #dddddd;
+    
+    .content{
+        height: 9.4rem;
+        padding: 10px;
+
+        p{
+            &:first-child{
+                height: 1.2rem;
+
+                display: flex;
+                align-items: center;
+            }
+
+            span{
+                margin-left: 5px;
+            }
+
+            &:last-child{
+                text-align: justify;
+                margin: 0 10px;
+
+                color: gray;
+            }
+        }
+    }
+
+    .buttons{
+        width: 100%;
+
+        display: flex;
+        margin-top: 0.9rem;
+
+        border-top: 1px solid #dddddd;
+
+        button{
+            height: 2.4rem;
+            width: 9rem;
+
+            background-color: transparent;
+            border: none;
+
+            font-family: sans-serif;
+            color: gray;
+            font-size: 16px;
+            
+            &:nth-child(2){
+                width: 12rem;
+                border-right: 1px solid #dddddd;
+                border-left: 1px solid #dddddd;
+            }
+        }
+    }
+}
